@@ -1267,7 +1267,7 @@ include::{generated}/api/enums/VkDynamicState.txt[]
     pname:depthBiasConstantFactor, pname:depthBiasClamp and
     pname:depthBiasSlopeFactor states in
     sname:VkPipelineRasterizationStateCreateInfo will be ignored and must:
-    be set dynamically with flink:vkCmdSetDepthBias before any draws are
+    be set dynamically with flink:vkCmdSetToBias before any draws are
     performed with pname:depthBiasEnable in
     sname:VkPipelineRasterizationStateCreateInfo set to ename:VK_TRUE.
   * ename:VK_DYNAMIC_STATE_BLEND_CONSTANTS specifies that the

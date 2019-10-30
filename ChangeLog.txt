@@ -2672,7 +2672,7 @@ Internal Issues:
   * Fix problem with diff_html target in extension.rb (internal issue 1104).
   * Modify valid usage statements for slink:VkClearDepthStencilValue,
     slink:VkGraphicsPipelineCreateInfo, slink:VkViewport, and
-    flink:vkCmdSetDepthBounds, and the description of vkCmdSetDepthBias, to
+    flink:vkCmdSetDepthBounds, and the description of vkCmdSetToBias, to
     clarify that clamping is applied if and only if the
     `VK_EXT_depth_range_unrestricted` is not enabled (internal issue 1124),
     in versions of the specification built with that extension included.

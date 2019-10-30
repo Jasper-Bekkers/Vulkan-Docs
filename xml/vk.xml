@@ -6149,7 +6149,7 @@ typedef void <name>CAMetalLayer</name>;
             <param><type>float</type> <name>lineWidth</name></param>
         </command>
         <command queues="graphics" renderpass="both" cmdbufferlevel="primary,secondary">
-            <proto><type>void</type> <name>vkCmdSetDepthBias</name></proto>
+            <proto><type>void</type> <name>vkCmdSetToBias</name></proto>
             <param externsync="true"><type>VkCommandBuffer</type> <name>commandBuffer</name></param>
             <param><type>float</type> <name>depthBiasConstantFactor</name></param>
             <param><type>float</type> <name>depthBiasClamp</name></param>
@@ -8022,7 +8022,7 @@ typedef void <name>CAMetalLayer</name>;
             <command name="vkCmdSetViewport"/>
             <command name="vkCmdSetScissor"/>
             <command name="vkCmdSetLineWidth"/>
-            <command name="vkCmdSetDepthBias"/>
+            <command name="vkCmdSetToBias"/>
             <command name="vkCmdSetBlendConstants"/>
             <command name="vkCmdSetDepthBounds"/>
             <command name="vkCmdSetStencilCompareMask"/>

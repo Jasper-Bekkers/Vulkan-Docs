@@ -325,7 +325,7 @@ binding for that vertex shader invocation are considered out of bounds.
     sname:VkPipelineRasterizationStateCreateInfo structure must: be set to
     0.0 unless the ename:VK_DYNAMIC_STATE_DEPTH_BIAS dynamic state is
     enabled, and the pname:depthBiasClamp parameter to
-    fname:vkCmdSetDepthBias must: be set to 0.0.
+    fname:vkCmdSetToBias must: be set to 0.0.
   * [[features-fillModeNonSolid]] pname:fillModeNonSolid specifies whether
     point and wireframe fill modes are supported.
     If this feature is not enabled, the ename:VK_POLYGON_MODE_POINT and
